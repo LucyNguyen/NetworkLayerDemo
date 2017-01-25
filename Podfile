@@ -12,6 +12,9 @@ target 'NetworkLayerDemo' do
   target 'NetworkLayerDemoTests' do
     inherit! :search_paths
     # Pods for testing
+    pod 'Quick'
+    pod 'Nimble'
+    pod 'Mockingjay'
   end
 
   target 'NetworkLayerDemoUITests' do

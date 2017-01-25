@@ -3,17 +3,34 @@ PODS:
   - AlamofireObjectMapper (4.0.1):
     - Alamofire (~> 4.1)
     - ObjectMapper (~> 2.0)
+  - Mockingjay (2.0.0):
+    - Mockingjay/Core (= 2.0.0)
+    - Mockingjay/XCTest (= 2.0.0)
+  - Mockingjay/Core (2.0.0):
+    - URITemplate (~> 2.0)
+  - Mockingjay/XCTest (2.0.0):
+    - Mockingjay/Core
+  - Nimble (5.1.1)
   - ObjectMapper (2.2.2)
+  - Quick (1.0.0)
+  - URITemplate (2.0.0)
 
 DEPENDENCIES:
   - Alamofire
   - AlamofireObjectMapper
+  - Mockingjay
+  - Nimble
+  - Quick
 
 SPEC CHECKSUMS:
   Alamofire: aa2e09d871c9160ac53c90e83c68064a94e3dfbe
   AlamofireObjectMapper: 842d2eed43a4d0593ff0110d54ac86a170c4519c
+  Mockingjay: 7122a3fc0597aa63438e4cd9b71b7bc8aac05b87
+  Nimble: 415e3aa3267e7bc2c96b05fa814ddea7bb686a29
   ObjectMapper: 9e385c2295bcc4e16eabbcfc85db801442bba545
+  Quick: 8024e4a47e6cc03a9d5245ef0948264fc6d27cff
+  URITemplate: a5acb3f76c6a2338116fde88b658d83f91bbac45
 
-PODFILE CHECKSUM: 4811da870a7a89c284222de134c79e72a5f8614e
+PODFILE CHECKSUM: 5a67d641ecf34940fae8ff4846b293dbb012ba34
 
 COCOAPODS: 1.1.0

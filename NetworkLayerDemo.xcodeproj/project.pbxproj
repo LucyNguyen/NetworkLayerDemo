@@ -23,6 +23,7 @@
 		512AC8CA1E3847CF00C00FDD /* URLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512AC8C91E3847CF00C00FDD /* URLs.swift */; };
 		518225CF1E38843700212A34 /* UserServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518225CE1E38843700212A34 /* UserServiceProtocol.swift */; };
 		518225D11E3885DA00212A34 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518225D01E3885DA00212A34 /* UserService.swift */; };
+		518225D31E38A9A800212A34 /* UserServiceSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518225D21E38A9A800212A34 /* UserServiceSpec.swift */; };
 		9E1D6F3E0FF7E3199E23A5B0 /* Pods_NetworkLayerDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4174E6D4B9B1B05AD9D934C9 /* Pods_NetworkLayerDemo.framework */; };
 		A828A1CE40ED71CAE3168918 /* Pods_NetworkLayerDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E54226D480500945B1F4D8A7 /* Pods_NetworkLayerDemoUITests.framework */; };
 		FBD45807A44F0ECB2575677D /* Pods_NetworkLayerDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D70E4CA415EBFECAA46F233 /* Pods_NetworkLayerDemoTests.framework */; };
@@ -72,6 +73,7 @@
 		512AC8C91E3847CF00C00FDD /* URLs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = URLs.swift; path = Constants/URLs.swift; sourceTree = "<group>"; };
 		518225CE1E38843700212A34 /* UserServiceProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserServiceProtocol.swift; path = Service/User/UserServiceProtocol.swift; sourceTree = "<group>"; };
 		518225D01E3885DA00212A34 /* UserService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserService.swift; path = Service/User/UserService.swift; sourceTree = "<group>"; };
+		518225D21E38A9A800212A34 /* UserServiceSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserServiceSpec.swift; sourceTree = "<group>"; };
 		59B82A2D9C14A49D775A69C0 /* Pods-NetworkLayerDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkLayerDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NetworkLayerDemoTests/Pods-NetworkLayerDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		6ABC8233A12F02E4798E5839 /* Pods-NetworkLayerDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkLayerDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NetworkLayerDemoUITests/Pods-NetworkLayerDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		E42DA680532AB9FC36B9DB05 /* Pods-NetworkLayerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkLayerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NetworkLayerDemo/Pods-NetworkLayerDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -150,6 +152,7 @@
 			children = (
 				512AC8A11E3833E300C00FDD /* NetworkLayerDemoTests.swift */,
 				512AC8A31E3833E300C00FDD /* Info.plist */,
+				518225D21E38A9A800212A34 /* UserServiceSpec.swift */,
 			);
 			path = NetworkLayerDemoTests;
 			sourceTree = "<group>";
@@ -524,6 +527,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				512AC8A21E3833E300C00FDD /* NetworkLayerDemoTests.swift in Sources */,
+				518225D31E38A9A800212A34 /* UserServiceSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
